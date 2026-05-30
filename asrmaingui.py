@@ -9,7 +9,7 @@ import tkinter as tk
 from tkinter import ttk, scrolledtext
 
 # ================= 參數設定 =================
-WHISPER_MODEL = "turbo"  # 可選擇 "tiny", "base", "small", "medium", "large-v2", "turbo" 等模型
+WHISPER_MODEL = "tiny"  # 可選擇 "tiny", "base", "small", "medium", "large-v2", "turbo" 等模型
 OLLAMA_API_URL = "http://localhost:11434/api/generate"
 OLLAMA_MODEL = "gemma3:1b"  # 請確認您的 Ollama 已經 pull 了這個模型，或改為您本機有的模型
 SAMPLE_RATE = 16000
