@@ -12,8 +12,9 @@ from tkinter import ttk, scrolledtext
 WHISPER_MODEL = "tiny"  # 可選擇 "tiny", "base", "small", "medium", "large-v2", "turbo" 等模型
 OLLAMA_API_URL = "http://localhost:11434/api/generate"
 OLLAMA_MODEL = "gemma3:1b"  # 請確認您的 Ollama 已經 pull 了這個模型，或改為您本機有的模型
+#OLLAMA_MODEL = "qwen3.5:0.8b"
 SAMPLE_RATE = 16000
-BLOCK_DURATION = 2
+BLOCK_DURATION = 3
 # ============================================
 
 # 建立通訊佇列
